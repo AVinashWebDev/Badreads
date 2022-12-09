@@ -1,0 +1,132 @@
+.right-block {
+  margin-left: 11px;
+  margin-right: 11px;
+  width: 300px;
+  color: #333333;
+}
+.title-right-article {
+  font-family: Merriweather, Arial;
+  font-size: 15px;
+  font-weight: 700;
+  color: rgb(31, 91, 126);
+  cursor: pointer;
+}
+.title-right-article:hover {
+  text-decoration: underline;
+}
+.girl-img-container img {
+  width: 300px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.like-cmnt-right-side {
+  color: #6c6c6c;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+#want-to-read-button {
+  width: 130px;
+  height: 30px;
+  border-radius: 4px;
+  border: none;
+  font-size: 13.5px;
+  color: white;
+  background-color: #409d69;
+  margin: 5px 0px;
+  cursor: pointer;
+  text-align: left;
+  padding: 7px;
+}
+#want-to-read-button:hover {
+  background-color: #3b9261;
+  color: #f7f6f4;
+}
+.right-block .current-book {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.stars-photo {
+  width: 70px;
+  margin-top: 5px;
+}
+.stars span {
+  color: #6c6c6c;
+  font-size: 12px;
+  margin-top: 3px;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.right-block .current-book-title {
+  font-size: 15px;
+}
+.right-arrow {
+  position: absolute;
+  right: 10px;
+  top: 57px;
+  cursor: pointer;
+}
+.right-block .right-2 {
+  font-size: 14px;
+}
+.dark-title {
+  font-weight: 700;
+  cursor: pointer;
+}
+.dark-title:hover {
+  text-decoration: underline;
+}
+.blue-text {
+  cursor: pointer;
+}
+.blue-text:hover {
+  text-decoration: underline;
+}
+.right-3 img {
+  width: 100%;
+  cursor: pointer;
+}
+.company {
+  width: 155px;
+}
+.work-with-us {
+  width: 120px;
+}
+.right-4 {
+  font-size: 14px;
+  display: flex;
+  align-items: top;
+}
+.right-4 p,
+.mobile-version {
+  cursor: pointer;
+  margin: 12px 0;
+}
+.mobile-version {
+  font-size: 14px;
+}
+.mobile-version:hover {
+  text-decoration: underline;
+}
+.right-4 p:hover {
+  text-decoration: underline;
+}
+.social-media-links {
+  display: flex;
+}
+.social-media-links img {
+  width: 30px;
+  margin-right: 9px;
+  cursor: pointer;
+}
+.store-button {
+  width: 135px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.copyright {
+  color: #6c6c6c;
+  font-size: 12px;
+}

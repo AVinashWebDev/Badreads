@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>BadReads</title>
+    <meta name="Author" content="Avinash Godwal" />
+    <meta
+      name="Description"
+      content="This is a practice project I am making which is a clone of the amazon goodreads website."
+    />
+    <meta charset="utf-8" />
+    <link rel="icon" href="icons/iconnn.png" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/left-block.css" />
+    <link rel="stylesheet" href="styles/middle-block.css" />
+    <link rel="stylesheet" href="styles/right-block.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span class="bad">bad</span><span class="reads">reads</span>
+      </div>
+      <div class="header-buttons">
+        <div class="header-button-block">Home</div>
+        <div class="header-button-block">My Books</div>
+        <div id="browse-button" class="header-button-block">
+          Browse &#9662;
+          <ul class="browse-dropdown">
+            <li>Recommendations</li>
+            <li>Choice Awards</li>
+            <li>Giveaways</li>
+            <li>New Releases</li>
+            <li>Lists</li>
+            <li>Explore</li>
+            <li>News and Interviews</li>
+          </ul>
+          <ul class="browse-dropdown-2">
+            <li id="favorite-gen">FAVORITE GENERES</li>
+            <li>Fantasy</li>
+            <li>Fiction</li>
+            <li>Nonfiction</li>
+            <li>Science Fiction</li>
+            <li id="all-gen">All Generes</li>
+          </ul>
+        </div>
+        <div id="community-button" class="header-button-block">
+          Community &#9662;
+          <ul class="community-dropdown">
+            <li>Groups</li>
+            <li>Discussions</li>
+            <li>Quotes</li>
+            <li>Ask the Author</li>
+            <li>Trivia</li>
+            <li>Quizzes</li>
+            <li>Creative Writing</li>
+            <li>People</li>
+          </ul>
+        </div>
+      </div>
+      <div class="search-bar">
+        <input class="search-box" type="text" placeholder="Search books" />
+        <img class="lens-icon" src="icons/lens.svg" alt="" />
+      </div>
+      <div class="header-icons">
+        <div class="header-icon-box">
+          <img
+            class="header-icon-image"
+            src="icons/bell.png"
+            alt=""
+            title="Notifications"
+          />
+        </div>
+        <div class="header-icon-box">
+          <img
+            class="header-icon-image"
+            src="icons/chat.png"
+            alt=""
+            title="Groups & Chats"
+          />
+        </div>
+        <div class="header-icon-box">
+          <img
+            class="header-icon-image"
+            src="icons/message.png"
+            alt=""
+            title="Messages"
+          />
+        </div>
+        <div class="header-icon-box">
+          <img
+            class="header-icon-image"
+            src="icons/friends.png"
+            alt=""
+            title="Friends"
+          />
+        </div>
+        <div class="header-icon-box">
+          <img
+            class="header-icon-image"
+            src="icons/user.jpg"
+            alt=""
+            title="Current User"
+          />
+        </div>
+      </div>
+    </header>
+    <div class="header-2">
+      <div class="header-buttons">
+        <div class="header-button-block">Home</div>
+        <div class="header-button-block">My Books</div>
+        <div id="browse-button" class="header-button-block">
+          Browse &#9662;
+          <ul class="browse-dropdown">
+            <li>Recommendations</li>
+            <li>Choice Awards</li>
+            <li>Giveaways</li>
+            <li>New Releases</li>
+            <li>Lists</li>
+            <li>Explore</li>
+            <li>News and Interviews</li>
+          </ul>
+          <ul class="browse-dropdown-2">
+            <li id="favorite-gen">FAVORITE GENERES</li>
+            <li>Fantasy</li>
+            <li>Fiction</li>
+            <li>Nonfiction</li>
+            <li>Science Fiction</li>
+            <li id="all-gen">All Generes</li>
+          </ul>
+        </div>
+        <div id="community-button" class="header-button-block">
+          Community &#9662;
+          <ul class="community-dropdown">
+            <li>Groups</li>
+            <li>Discussions</li>
+            <li>Quotes</li>
+            <li>Ask the Author</li>
+            <li>Trivia</li>
+            <li>Quizzes</li>
+            <li>Creative Writing</li>
+            <li>People</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="header-3-main">
+      <div class="search-lens-2">
+        <img id="lens-2" src="icons/lens.svg" alt="" />
+      </div>
+      <div class="logo">
+        <span class="bad">bad</span><span class="reads">reads</span>
+      </div>
+      <div class="header-icon-box">
+        <img
+          class="header-icon-image"
+          src="icons/user.jpg"
+          alt=""
+          title="Current User"
+        />
+      </div>
+    </div>
+    <div class="header-3">
+      <div class="header-buttons">
+        <div class="header-button-block">My Books</div>
+        <div id="browse-button" class="header-button-block">
+          Browse &#9662;
+          <ul class="browse-dropdown">
+            <li>Recommendations</li>
+            <li>Choice Awards</li>
+            <li>Giveaways</li>
+            <li>New Releases</li>
+            <li>Lists</li>
+            <li>Explore</li>
+            <li>News and Interviews</li>
+          </ul>
+          <ul class="browse-dropdown-2">
+            <li id="favorite-gen">FAVORITE GENERES</li>
+            <li>Fantasy</li>
+            <li>Fiction</li>
+            <li>Nonfiction</li>
+            <li>Science Fiction</li>
+            <li id="all-gen">All Generes</li>
+          </ul>
+        </div>
+        <div id="community-button" class="header-button-block">
+          Community &#9662;
+          <ul class="community-dropdown">
+            <li>Groups</li>
+            <li>Discussions</li>
+            <li>Quotes</li>
+            <li>Ask the Author</li>
+            <li>Trivia</li>
+            <li>Quizzes</li>
+            <li>Creative Writing</li>
+            <li>People</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <main>
+      <div class="left-block">
+        <p class="section-heading">CURRENTLY READING</p>
+        <div class="left-1">
+          <div class="current-book">
+            <div class="current-book-image">
+              <img src="images/mistborn.jpg" alt="" />
+            </div>
+            <div class="current-book-info">
+              <div class="current-book-title">
+                The Final Empire (Mistborn, #1)
+              </div>
+              <div class="current-book-author">
+                by <span>Brandon Sanderson</span>
+                <img class="author-logo" src="icons/author-logo.webp" alt="" />
+              </div>
+              <div class="current-book-progress">
+                <button class="update-progress-button">Update progress</button>
+              </div>
+            </div>
+          </div>
+          <div class="current-book">
+            <div class="current-book-image">
+              <img src="images/anatomy.jpg" alt="" />
+            </div>
+            <div class="current-book-info">
+              <div class="current-book-title">
+                The Anatomy of Story: 22 Steps to becom...
+              </div>
+              <div class="current-book-author">by <span>John Truby</span></div>
+              <div class="current-book-progress">
+                <button class="update-progress-button">Update progress</button>
+              </div>
+            </div>
+          </div>
+          <span class="extra-link">View all books </span> &#183;
+          <span class="extra-link"> Add a book </span> &#183;
+          <span class="extra-link"> General update</span>
+        </div>
+        <div class="block-divider-line"></div>
+        <p class="section-heading">2022 READING CHALLENGE</p>
+        <div class="left-2">
+          <div class="challenge-image-block">
+            <p class="year-name">2022</p>
+            <img src="images/book-icon.svg" alt="" />
+            <p class="challenge-name">READING</p>
+            <p class="challenge-name-2">CHALLENGE</p>
+          </div>
+          <div class="challenge-info">
+            <div class="book-count">
+              <p class="big-number">13</p>
+              <p class="smol-text">books completed</p>
+            </div>
+            <div class="behind-books">17 books behind schedule</div>
+            <div class="challenge-bar">
+              <progress value="13" max="50"></progress>
+              <span> 13/50 (26%)</span>
+            </div>
+            <div class="view-link">View challenge</div>
+          </div>
+        </div>
+        <div class="block-divider-line"></div>
+        <p class="section-heading">WANT TO READ</p>
+        <div class="left-3">
+          <img src="images/list-book-1.jpg" alt="" />
+          <img src="images/list-book-2.jpg" alt="" />
+          <img src="images/list-book-3.jpg" alt="" />
+          <img src="images/list-book-4.jpg" alt="" />
+          <img src="images/list-book-5.jpg" alt="" />
+          <img src="images/list-book-6.jpg" alt="" />
+        </div>
+        <div class="block-divider-line"></div>
+        <p class="section-heading">BOOKSHELVES</p>
+        <div class="left-4">
+          <span class="bookshelf">89</span>
+          &nbsp;&nbsp;<span class="bookshelf">Want to read</span>
+          <br />
+          &nbsp;&nbsp;&nbsp;<span class="bookshelf">2</span> &nbsp;&nbsp;<span
+            class="bookshelf"
+            >Currently reading</span
+          >
+          <br />
+          <span class="bookshelf">31</span>
+          &nbsp;&nbsp;<span class="bookshelf">Read</span>
+          <br />
+          &nbsp;&nbsp;&nbsp;<span class="bookshelf">4</span> &nbsp;&nbsp;<span
+            class="bookshelf"
+            >Dumped early</span
+          >
+          <br />
+          &nbsp;&nbsp;&nbsp;<span class="bookshelf">0</span> &nbsp;&nbsp;<span
+            class="bookshelf"
+            >Fiction</span
+          >
+        </div>
+      </div>
+      <div class="middle-block">
+        <p class="section-heading">UPDATES</p>
+
+        <img class="settings-icon" src="icons/setting-wheel.svg" alt="" />
+        <p class="customize">Customize</p>
+
+        <div class="posts-block">
+          <div class="post-box">
+            <div class="main-text">
+              <div class="post-author">
+                <span>Stephen King </span> wrote a new blogpost
+              </div>
+              <div class="post-title">Stephen Reads from FAIRY TALE</div>
+              <div class="post-text">
+                Today, Thursday August 11th, 2022 at 1PM Eastern, Stephen will
+                read a chapter from his upcoming novel Fairy Tale on Simon &
+                Schuster's YouTube channel. Fairy Tale will be ou…<span
+                  >Read post</span
+                >
+              </div>
+              <div class="post-like-buttons">
+                <span>Like</span> &#183; <span>Comment</span>
+              </div>
+              <div class="how-old">2d</div>
+              <div class="author-photo">
+                <img src="images/stephen.jpg" alt="" />
+              </div>
+            </div>
+            <div class="like-block">
+              <span>Dikshit Roy</span> and <span>54 other people</span> liked
+              this
+            </div>
+            <div class="comment-block">
+              <img src="icons/user.jpg" alt="" />
+              <textarea
+                name=""
+                id=""
+                cols="60"
+                rows="1"
+                placeholder="Write a comment"
+              ></textarea>
+            </div>
+          </div>
+          <div class="post-box">
+            <div class="main-text">
+              <div class="post-author">
+                <span>Stephen King </span> wrote a new blogpost
+              </div>
+              <div class="post-title">Russian Prank Video</div>
+              <div class="post-text">
+                Regarding the recent video made of Stephen by Russian
+                pranksters, "I WAS pranked. Had no idea who this guy Bandera
+                was. So... I'm embarrassed. But it turns out I wasn't
+                alone.…<span>Read post</span>
+              </div>
+              <div class="post-like-buttons">
+                <span>Like</span> &#183; <span>Comment</span>
+              </div>
+              <div class="how-old">4w</div>
+              <div class="author-photo">
+                <img src="images/stephen.jpg" alt="" />
+              </div>
+            </div>
+            <div class="like-block">
+              <span>Cathy</span> and <span>75 other people</span> liked this
+            </div>
+            <div class="old-comments">
+              <p>See all 17 comments</p>
+              <div id="cmnt-1-container" class="comment-container">
+                <div class="comment-image">
+                  <img src="images/cmnt1.jpg" alt="" />
+                </div>
+
+                <div class="comment">
+                  <p>Edmund Donnely</p>
+                  When politics eclipses art, the result is usually obscene.
+                  Stick to what you do best.
+                  <div class="how-old-2">2w &#183; Flag</div>
+                </div>
+              </div>
+              <div class="comment-container">
+                <div class="comment-image">
+                  <img src="images/cmnt2.jpg" alt="" />
+                </div>
+
+                <div class="comment">
+                  <p>Robert Alvarez</p>
+                  <em
+                    >Natalie wrote: "I think the lesson here is it's okay to not
+                    know something. Sometimes people feel embarrassed they don't
+                    know someone or something so they just play along. Horrified
+                    that Bandera was r…</em
+                  >
+                  <span>More</span>
+                  <div class="how-old-2">1w &#183; Flag</div>
+                </div>
+              </div>
+            </div>
+            <div class="comment-block">
+              <img src="icons/user.jpg" alt="" />
+              <textarea
+                name=""
+                id=""
+                cols="60"
+                rows="1"
+                placeholder="Write a comment"
+              ></textarea>
+            </div>
+          </div>
+          <div class="post-box">
+            <div class="main-text">
+              <div class="post-author">
+                <span>Mark Manson </span> wrote a new blogpost
+              </div>
+              <div class="post-title">Are You Not Entertained?</div>
+              <div class="post-text">
+                This is a <span>Mindf*ck Monthly newsletter</span> from July 18,
+                2022. Every month, I send out big ideas I've been chewing on in
+                the hopes that it makes you less of a shitty person. …<span
+                  >Read post</span
+                >
+              </div>
+              <div class="post-like-buttons">
+                <span>Like</span> &#183; <span>Comment</span>
+              </div>
+              <div class="how-old">4w</div>
+              <div class="author-photo">
+                <img src="images/mark.jpg" alt="" />
+              </div>
+            </div>
+            <div class="like-block">
+              <span>Katie</span> and <span>7 other people</span> liked this
+            </div>
+            <div class="comment-block">
+              <img src="icons/user.jpg" alt="" />
+              <textarea
+                name=""
+                id=""
+                cols="60"
+                rows="1"
+                placeholder="Write a comment"
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="post-box">
+            <div class="main-text">
+              <div class="post-author">
+                <span>Mark Manson </span> wrote a new blogpost
+              </div>
+              <div class="post-title">3 Principles for a Better Life</div>
+              <div class="post-text">
+                This is a <span>Mindf*ck Monthly newsletter</span> from June 13,
+                2022. Every month, I send out big ideas I've been chewing on in
+                the hopes that it makes you less of a shitty person. Let'…<span
+                  >Read post</span
+                >
+              </div>
+              <div class="post-like-buttons">
+                <span>Like</span> &#183; <span>Comment</span>
+              </div>
+              <div class="how-old">13 Jun</div>
+              <div class="author-photo">
+                <img src="images/mark.jpg" alt="" />
+              </div>
+            </div>
+            <div class="like-block">
+              <span>Rio Devit</span> and <span>7 other people</span> liked this
+            </div>
+            <div class="comment-block">
+              <img src="icons/user.jpg" alt="" />
+              <textarea
+                name=""
+                id=""
+                cols="60"
+                rows="1"
+                placeholder="Write a comment"
+              ></textarea>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-block">
+        <p class="section-heading">NEWS & INTERVIEWS</p>
+
+        <div class="right-1">
+          <div class="title-right-article">
+            Meet This Year's Class of Debut Young Adult Novels
+          </div>
+          <div class="girl-img-container">
+            <img src="images/girl-reading-book.jpg" alt="" />
+          </div>
+          <div class="like-cmnt-right-side">43 Likes &#183; 5 Comments</div>
+        </div>
+        <div class="block-divider-line"></div>
+        <p class="section-heading">RECOMMENDATIONS</p>
+        <div class="right-2">
+          Because you enjoyed
+          <span class="dark-title"
+            >Atomic Habits: An Easy & Proven Way to Build Good Habits & Break
+            Bad Ones:</span
+          >
+          <div class="current-book">
+            <div class="current-book-image">
+              <img src="images/power-of-now.jpg" alt="" />
+            </div>
+            <div class="current-book-info">
+              <div class="current-book-title">
+                The Power of Now: A Guide to Spiritual Enlightenment
+              </div>
+              <div class="current-book-author">
+                by <span>Eckhart Tolle</span>
+              </div>
+              <div class="stars">
+                <img class="stars-photo" src="icons/stars.PNG" alt="" />
+                <span>4.14</span>
+              </div>
+              <div class="current-book-progress">
+                <button id="want-to-read-button" class="want-to-read-button">
+                  Want to Read
+                </button>
+              </div>
+            </div>
+            <img class="right-arrow" src="icons/right-arrow.svg" alt="" />
+          </div>
+          To make the journey into the Now we will need to leave our analytical
+          mind and its false created self, the ego, behind. From the very first
+          page of Eckhart Tolle's extraordina…
+          <span class="blue-text">Continue reading</span>
+          <p class="blue-text">
+            View all books similar to Atomic Habits: An Easy & Proven Way to
+            Build Good Habits & Break Bad Ones
+          </p>
+        </div>
+        <div class="block-divider-line"></div>
+        <p class="section-heading">GOODREADS CHOICE AWARDS</p>
+        <div class="right-3">
+          <img src="images/awards.PNG" alt="" />
+        </div>
+        <div class="block-divider-line"></div>
+        <p class="section-heading">
+          COMPANY
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          WORK WITH US
+        </p>
+        <div class="right-4">
+          <div class="company">
+            <p class="company-text">About us</p>
+            <p class="company-text">Careers</p>
+            <p class="company-text">Terms</p>
+            <p class="company-text">Privacy</p>
+            <p class="company-text">Interest Based Ads</p>
+            <p class="company-text">Ad Preferences</p>
+            <p class="company-text">Help</p>
+          </div>
+          <div class="work-with-us">
+            <p class="company-text">Authors</p>
+            <p class="company-text">Advertise</p>
+            <p class="company-text">Authors & ads blog</p>
+            <p class="company-text">API</p>
+          </div>
+        </div>
+        <p class="section-heading">CONNECT</p>
+        <div class="right-5">
+          <div class="social-media-links">
+            <img src="icons/facebook.svg" alt="" />
+            <img src="icons/twitter.svg" alt="" />
+            <img src="icons/instagram.svg" alt="" />
+            <img src="icons/linkedin.svg" alt="" />
+          </div>
+          <img class="store-button" src="icons/app-store.svg" alt="" /> &nbsp;
+          &nbsp;&nbsp;&nbsp;
+          <img class="store-button" src="icons/play-store.png" alt="" />
+          <p class="mobile-version">Mobile Version</p>
+          <p class="copyright">&#169; 2022 Goodreads, Inc.</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

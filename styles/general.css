@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: Lato, Arial;
+  background-color: #f7f6f4;
+  padding-bottom: 2000px;
+  color: #382110;
+}
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+}

@@ -1,0 +1,186 @@
+.middle-block {
+  margin-left: 11px;
+  margin-right: 11px;
+  width: 540px;
+  position: relative;
+  color: #333333;
+}
+.posts-block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 11px;
+  margin-right: 11px;
+}
+.post-box {
+  width: 518px;
+  border: 1px solid rgb(215, 215, 215);
+  margin-bottom: 20px;
+  border-radius: 3px;
+}
+.main-text {
+  background-color: white;
+  padding: 13px 13px 13px 31px;
+  position: relative;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.how-old {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  color: #6c6c6c;
+  font-size: 12px;
+  cursor: pointer;
+}
+.how-old-2 {
+  position: absolute;
+  top: 2px;
+  right: 8px;
+  color: #6c6c6c;
+  font-size: 12px;
+  cursor: pointer;
+}
+.how-old:hover,
+.how-old-2:hover {
+  text-decoration: underline;
+}
+.author-photo {
+  position: absolute;
+  top: 10px;
+  left: -18px;
+}
+.author-photo img {
+  width: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.post-author {
+  font-size: 14px;
+  margin-bottom: 22px;
+}
+.post-author span {
+  font-weight: 700;
+}
+.post-author span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.post-title {
+  font-weight: 700;
+}
+.post-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.post-text {
+  margin: 6px 0px;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.post-like-buttons span,
+.post-text span,
+.comment span,
+.blue-text {
+  color: rgb(41, 101, 136);
+  font-size: 14px;
+}
+.post-like-buttons span:hover,
+.post-text span:hover,
+.comment span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.like-block,
+.comment-block,
+.old-comments {
+  background-color: #f1f1f1;
+  padding: 8px 10px;
+  font-size: 14px;
+  border-top: 1px solid rgb(215, 215, 215);
+}
+.comment-block img {
+  cursor: pointer;
+}
+.old-comments p {
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 0;
+}
+.old-comments p:hover {
+  text-decoration: underline;
+}
+.comment {
+  position: relative;
+}
+.comment p {
+  margin: 0;
+  margin-bottom: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  width: 110px;
+}
+.comment p:hover {
+  text-decoration: underline;
+}
+.comment-container img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.comment-container {
+  display: flex;
+}
+#cmnt-1-container {
+  margin-bottom: 16px;
+}
+.like-block span {
+  font-weight: 700;
+}
+.comment-block {
+  display: flex;
+  align-items: center;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.comment-block img {
+  width: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.comment-block textarea {
+  resize: vertical;
+  padding: 5px;
+  border: 1px solid rgb(215, 215, 215);
+  border-radius: 2px;
+}
+.comment-block textarea:focus {
+  outline: none;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.288);
+}
+.comment-block textarea::placeholder {
+  font-size: 14px;
+  color: #9f9f9f;
+  font-family: Lato, Arial;
+}
+.like-block span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.middle-block .section-heading {
+  margin-left: 11px;
+  display: inline-block;
+}
+.customize {
+  color: #767676;
+  font-size: 15px;
+  display: inline-block;
+  cursor: pointer;
+  margin: 0;
+}
+.settings-icon {
+  height: 16px;
+  margin-left: 364px;
+  cursor: pointer;
+}

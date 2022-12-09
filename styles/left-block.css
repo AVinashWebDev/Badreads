@@ -1,0 +1,174 @@
+.section-heading {
+  font-size: 14px;
+  font-weight: 600;
+}
+.left-block {
+  margin-left: 15px;
+  margin-right: 22px;
+  width: 300px;
+}
+.current-book {
+  display: flex;
+  margin-bottom: 8px;
+  position: relative;
+}
+.current-book-image,
+.current-book-info {
+  display: inline-block;
+}
+.current-book-info {
+  width: 195px;
+  padding-top: 4px;
+}
+.current-book-title {
+  font-family: Merriweather, Arial;
+  font-size: 15px;
+  font-weight: 700;
+}
+.current-book-author,
+.current-book-progress {
+  font-family: Roboto, Arial;
+}
+.current-book-author {
+  font-size: 13px;
+  font-family: Merriweather, Arial;
+  position: relative;
+  margin-top: 5px;
+}
+.current-book-author span:hover,
+.current-book-title:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.author-logo {
+  width: 16px;
+  position: absolute;
+  top: 1px;
+  margin-left: 4px;
+}
+.current-book-image img {
+  width: 95px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+.current-book-progress button {
+  width: 110px;
+  height: 23px;
+  border-radius: 4px;
+  border: 1px solid #512f16;
+  font-size: 11px;
+  color: #512f16;
+  background-color: #f7f6f4;
+  margin: 5px 0px;
+  cursor: pointer;
+}
+.current-book-progress button:hover {
+  background-color: #512f16;
+  color: #f7f6f4;
+}
+.extra-link {
+  font-size: 14px;
+  color: rgb(47, 118, 160);
+}
+.extra-link:hover,
+.view-link:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.block-divider-line {
+  height: 0.8px;
+  background-color: rgb(199, 199, 199);
+  margin: 13px 0px;
+}
+
+.challenge-image-block {
+  width: 115px;
+  height: 135px;
+  background-color: rgb(216, 112, 0);
+  padding-left: 7px;
+  padding-right: 7px;
+}
+.challenge-image-block img {
+  width: 95px;
+}
+.challenge-image-block {
+  text-align: center;
+  margin-right: 16px;
+}
+.year-name {
+  font-size: 43px;
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+.challenge-name {
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+.challenge-name-2 {
+  font-size: 17px;
+  color: white;
+  margin: 0px;
+  font-weight: bold;
+}
+.left-2 {
+  display: flex;
+}
+.book-count .big-number {
+  font-size: 30px;
+  margin: 0;
+}
+.book-count .smol-text {
+  font-size: 15px;
+  margin: 0;
+}
+.book-count {
+  color: black;
+  width: 200px;
+}
+.book-count:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.behind-books {
+  font-size: 12px;
+  color: rgb(120, 120, 120);
+  margin: 3px 0px;
+}
+progress {
+  height: 17px;
+  width: 80px;
+  border-radius: 8px;
+}
+.challenge-bar {
+  color: rgb(41, 23, 7);
+  font-size: 16px;
+}
+.view-link {
+  font-size: 15px;
+  margin-top: 15px;
+  color: rgb(47, 118, 160);
+}
+.left-3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4px;
+}
+.left-3 img {
+  transition: opacity 0.17s;
+}
+.left-3 img:hover {
+  cursor: pointer;
+  opacity: 0.7;
+}
+.bookshelf {
+  color: rgb(47, 118, 160);
+  font-size: 14px;
+}
+.bookshelf:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
